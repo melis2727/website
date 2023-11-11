@@ -1,0 +1,294 @@
+/* ANASAYFA */
+.logo{
+    width: 90%;
+    margin-top: 35px;
+}
+
+.container{
+    max-width: ;
+    width: 100%;
+    height: 25vh;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #FFF0AD;
+}
+ .icerik{
+    
+    justify-content: space-between;
+   
+    
+   
+ }
+ .bilgi  a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    gap: 15px;
+ }
+
+
+
+ .bilgi{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 70px;
+    padding-right: 50px; 
+    font-weight: bold;
+    font-size: 20px;
+   
+ }
+
+ .hero-image{
+
+    background-image: url(./WhatsApp\ Görsel\ 2023-10-25\ saat\ 20.16.48_4a431e7e.jpg);
+    opacity: 0.7;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 50px;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    margin-top: 250px;
+    color:black;
+   
+ 
+   
+}
+.cerceve img{
+   
+    width: 20%;
+    height: 10%;
+   
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+.cerceve{
+    display: flex;
+}
+.box{
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 150px;
+    color: black;
+  background-color: #FFF0AD;
+  
+    height: 200px;
+    
+    font-size: large;
+/* @media screen {max-width: 750px;
+    
+} */
+
+}
+/* FOOTER */
+
+ .footer{
+  background-color: #FFF0AD;
+ 
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 50px;
+ }
+ .links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+ }
+ .social-links-1{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin:10px 10px ;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    border-radius: 50%;
+   color: black;
+
+}
+.social-links-2{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin: 10px 10px ;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    border-radius: 50%;
+   color: black;
+
+}
+
+.social-links-3{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin: 10px 10px ;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    border-radius: 50%;
+   color: black;
+
+}
+
+
+
+
+
+
+
+
+/* HAKKIMIZDA */
+ .hakkimizdafoto{
+  margin-top: 100px;
+    padding-left: 50px;
+    float: left; 
+    display:flex;
+    text-align: center; 
+    
+    
+ }
+
+ .hakkimizda{
+  background-color: #FFF0AD;
+   padding: 80px;
+ 
+   
+}
+.btn{
+    margin-bottom: 100px;
+   
+    
+}
+.iletisim{
+    margin-left: 850px;
+background-color: #FFF0AD;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+     padding: 20px 30px; 
+    border-radius: 30px;
+    margin-top: 50px;
+
+    
+
+}
+
+.iletisim:hover{
+    background: transparent;
+    border: 2px solid black;
+}
+
+ /* İLETİŞİM  */
+
+.arkacerceve{
+    width: 1500px;
+    height: 1500px;
+    background-image: url(./arka.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.box2{
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 250px;
+}
+.form{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+.mailkutusu{
+    margin-bottom: 32px;
+    padding-left: 32px;
+  
+}            
+.isimkutusu{
+    margin-bottom: 32px;
+    padding-left: 32px;
+ }
+
+
+
+
+ /* MENÜ */
+ .menu{
+    display: flex;
+    margin: 100px;
+    margin-left: 200px;
+   
+ }
+
+
+
+
+ .yemek {
+   
+    transition: 0.3s;
+    width: 60%;
+  }
+  
+  .yemek:hover {
+    box-shadow: 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .container-1 {
+    padding: 2px 16px;
+  
+  }
+
+ .icecek {
+  
+    transition: 0.3s;
+    width: 60%;
+  }
+  
+  .icecek:hover {
+    box-shadow: 8px 16px  rgba(0,0,0,0.2);
+  }
+.kahvalti{ 
+ 
+    transition: 0.3s;
+    width: 60%;
+}
+
+.kahvalti:hover {
+    box-shadow:  8px 16px  rgba(0,0,0,0.2);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
